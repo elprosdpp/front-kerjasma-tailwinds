@@ -4,5 +4,6 @@ import router from './router'
 
 import './index.css'
 import 'flowbite';
+import './assets/style.css'
 
 createApp(App).use(router).mount('#app')

@@ -5,6 +5,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
+    meta: { title: 'Beranda - Website Kerjasama' },
     component: HomeView
   },
   {
@@ -20,6 +21,12 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
+})
+
+router.beforeResolve((to, from, next) => {
+  document.title = to.meta.title
+
+  next()
 })
 
 export default router
