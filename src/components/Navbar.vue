@@ -29,7 +29,7 @@
       <!-- End Logo -->
     </nav>
     <hr class="border-navy" />
-    <nav class="dark:bg-gray-700 my-3">
+    <nav class="dark:bg-gray-700 my-1">
       <div class="py-3 px-4 mx-auto max-w-screen-xl md:px-6">
         <div class="flex items-center justify-center lg:justify-between">
           <ul class="flex flex-row mt-0 space-x-8 text-sm font-medium">
